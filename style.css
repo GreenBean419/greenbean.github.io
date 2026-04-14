@@ -1,4 +1,8 @@
 body{
-  background-color: darkblue;
+  background-color: black;
   font-family: "Times New Roman";
+}
+
+h1{
+  color: white;
 }
