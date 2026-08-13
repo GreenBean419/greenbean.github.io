@@ -3,8 +3,30 @@ body{
   font-family: "Times New Roman";
 }
 
+main{
+  width: 80%;
+  margin: 3% auto 10% auto ;
+}
+
 h1{
   color: white;
+}
+
+.container{
+  display: flex;
+  gap: 20px;
+}
+
+.left-column{
+  flex: 2;
+  border: 0.5px solid black;
+  padding: 20px;
+}
+
+.right-column{
+  flex: 1;
+  border: 0.5px solid black;
+  padding: 20px;
 }
 
 h2{
@@ -16,5 +38,38 @@ p{
 }
 
 a{
-  color: white
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: rgb(113, 113, 131);
+}
+
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+.home{
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.home svg{
+  transform: translateY(-1px);
+}
+
+
+#nav-menu{
+  display:flex;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
